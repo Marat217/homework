@@ -1,0 +1,31 @@
+.some-text-1 {
+   font-family: "Open Sans", sans-serif;
+   font-weight: 300;
+   font-size: 20px;
+   line-height: 30px;
+   font-style: italic;
+}                            
+
+.some-text-2 {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   text-decoration: line-through;
+}
+
+.some-text-3 {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   text-align: center;
+}
+
+.some-text-4 {
+   font-family: 'Times New Roman', Times, serif;
+   text-decoration: underline wavy;
+   word-spacing: 30px;
+   text-shadow: 2px 2px 2px #980dd8;
+}
+
+.some-text-5 {
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-decoration-line: underline;
+   text-decoration-style: double;
+   letter-spacing: 5px;
+}

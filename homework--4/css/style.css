@@ -1,0 +1,30 @@
+.main-box {
+   border: 3px solid #000;
+   border-radius: 20px 0px 0px 20px;
+   width: 1200px;
+   height: 470px;
+   overflow: auto;
+}
+
+.box {
+   display: inline-block;
+   box-sizing: border-box;
+   border: 2px solid #000;
+   border-radius: 25px;
+   width: 250px;
+   height: 180px;
+   padding: 10px 10px 10px 10px; /* или padding: 10px; */
+   margin: 5px; /* или margin: 5px 5px 5px 5px  */
+   box-shadow: inset 0px 0px 10px 4px #694040;
+   background: #ccb343;
+}
+
+h2 {
+   text-align: center;
+}
+
+p {
+   padding: 0px 3px 0px 15px;
+}
+
+

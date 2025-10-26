@@ -1,0 +1,37 @@
+body {
+    background: #2c2828;
+}
+
+.container {
+    position: relative;
+    margin: 1vw auto 0 auto;
+    text-align: center;
+    width: 800px;
+}
+
+.title {
+    color: #fff;
+    font-size: 5em;
+}
+
+.title::before {
+    content: '';
+    position: absolute;
+    left: 114px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background: #c53a3a;    
+}
+
+.title::after {
+    content: '';
+    position: absolute;
+    right: 114px;
+    border: 3px solid #fff;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    background: #1c62ca;
+}

@@ -1,0 +1,62 @@
+/* Привет, короче сначала я понял задание как то, что надо все самому сверстать (имею ввиду создать "коробку" с текстом и "линию загрузки"). 
+Частично получилось, но не много по другому реализовал, и не смог сделать так, чтобы текс появлялся после истечении какого-то времени, 
+и как сделать чтобы линия загрузки плавно выростала вправо(типа загрузка идет). Уже собирался пересмотреть уроки или пойти гуглить, 
+но решил посмотреть материалы к уроку. А там оказывается уже все есть... И уже изучив готовое решения скорректировал своё.
+Если честно не совсем понял какую задачу надо было решить. Она ведь уже была решена =)))
+P.S потратил на все 3 часа, пока не посмотрел материалы к уроку. */
+
+
+body {
+    background: #2b2828;
+    font-size: 3em;
+    color: #0f972d;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.box {
+    background: #696e6a;
+    border-radius: 5%;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box__line {
+    background: #fff;
+    height: 50px;
+    position: absolute;
+        top: -150px;
+        left: -400px;
+        right: 700px;
+}
+
+
+.box:hover {
+    background: #0ce69d;
+    box-shadow: 0px 0px 10px 10px #b35d90;
+    transition: all 1s;
+}
+
+.box:hover .box__line {
+    right: -400px;
+    transition-timing-function: ease;
+    transition: all 1s;
+}
+
+.box span {
+    opacity: 0;
+}
+
+.box:hover span {
+    opacity: 1;
+    transition-delay: 1.2s;
+}

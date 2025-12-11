@@ -16,7 +16,7 @@ html {
 }
 
 .body {
-   font-family: "Montserrat", "Arial", sans-serif;
+   font-family: 'Open Sans Light', "Arial", sans-serif;
    line-height: 1.5;
    color: var(--general-text);
    background: var(--general-bg);
